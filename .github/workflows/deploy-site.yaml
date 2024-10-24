@@ -30,6 +30,6 @@ jobs:
         host: ${{ secrets.SSH_HOST }}
         username: ${{ secrets.SSH_USERNAME }}
         password: ${{ secrets.SSH_PASSWORD }}
-        port: 122
+        port: 22
         source: ./public
         target: ./public_html
